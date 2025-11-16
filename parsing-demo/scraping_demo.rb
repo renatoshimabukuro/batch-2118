@@ -1,15 +1,20 @@
-require 'open-uri'
-require 'nokogiri'
+require "open-uri"
+require "nokogiri"
 
 # Let's scrape recipes from https://www.bbcgoodfood.com
+puts "Please enter an ingredient"
+ingredient = gets.chomp
+url = "https://www.bbcgoodfood.com/search?q=#{ingredient}"
 
-ingredient = 'sourdough'
-url = "https://www.bbcgoodfood.com/search/recipes?q=#{ingredient}"
+html_file = URI.open(url).read
+# p html_file
 
-html_file = URI.parse(url).read
-html_doc = Nokogiri::HTML.parse(html_file)
+html_doc = Nokogiri::HTML(html_file)
+# p html_doc
 
-html_doc.search('div.layout-md-rail div.card__content a.d-block').each do |element|
-  puts element.attribute('href').value
+search_results = html_doc.search(".card__section h2.heading-4")
+search_results.each do |search_result|
+  puts search_result.text.strip
+  puts search_result.attribute("href")
+
 end
-# print all recipe names
