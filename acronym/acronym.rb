@@ -1,6 +1,6 @@
-def acronym(sentence) # 'what the fuck'
+def acronym(sentence) # 'what the hell'
   # TODO: make the sentence into an acronym
-  # separate the words into an array ['what', 'the', 'fuck']
+  # separate the words into an array ['what', 'the', 'hell']
   words = sentence.split
   result = ''
   # start iterating over each words
@@ -14,7 +14,7 @@ def acronym(sentence) # 'what the fuck'
 end
 
 def acronym_v2(sentence)
-  # separate the words into an array ['what', 'the', 'fuck']
+  # separate the words into an array ['what', 'the', 'hell']
   words = sentence.split
   first_characters = []
   # start iterating over each words
