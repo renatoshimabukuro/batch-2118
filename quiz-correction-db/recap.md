@@ -42,7 +42,7 @@ The purpose is to allow you to represent data from a relational database as Ruby
 
 ```
 A process through which changes are made to the database structure/schema, such as adding or dropping tables or adding or removing columns.
-``
+```
 
 - How do you run a migration?
 
@@ -50,7 +50,7 @@ A process through which changes are made to the database structure/schema, such 
 
 rake db:migrate
 
-````
+```
 
 - Complete the following migrations to create your e-library database.
 
