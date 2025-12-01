@@ -1,0 +1,55 @@
+.card-category {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/breakfast.jpg);
+  color: white;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-product {
+  display: flex;
+  background-color: white;
+  gap: 20px;
+  width: 650px;
+}
+
+.card-product img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  margin: 0;
+}
+
+.card-product p {
+  margin: 0;
+}
+
+.card-product .card-product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-trip {
+  max-width: 800px;
+  box-shadow: 2px 2px 20px;
+}
+
+.card-trip-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+
+.card-trip-details .price {
+  text-align: end;
+}
