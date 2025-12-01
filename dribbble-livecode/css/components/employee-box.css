@@ -1,0 +1,40 @@
+.employee-box {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(208, 249, 208);
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.employee-box .name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.employee-box .subtext {
+  color: rgb(131, 131, 131);
+  margin-top: 0px;
+}
+
+.employee-box .toptext {
+  margin-bottom: 4px;
+}
+
+.salary .toptext {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.employee-box .functions {
+  color: rgb(131, 131, 131);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.employee-box .functions .border-right {
+  border-right: 2px;
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+body {
+  background-color: azure;
+  font-family: "Mona Sans", sans-serif;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px;
+}
+
+.card-img {
+  width: 400px;
+  border-radius: 8px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.inline > button {
+  background-color: lightgray;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.inline > button:hover {
+  background-color: black;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-and-number {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Montserrat:wght@400;700");
+
+@import url(components/checkbox.css);
+@import url(components/avatar.css);
+@import url(components/pill.css);
+@import url(components/employee-box.css);
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+  background: #f4f4f4;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", "sans-serif";
+}

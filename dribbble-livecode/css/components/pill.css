@@ -1,0 +1,7 @@
+.pill {
+  color: white;
+  background-color: limegreen;
+  border-radius: 9999px;
+  font-size: 10px;
+  padding-inline: 3px;
+}
